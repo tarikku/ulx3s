@@ -697,14 +697,7 @@ F 12 "T" H 5450 1450 50  0001 C CNN "Side"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5450 1150 5450 1200
-Wire Wire Line
 	5300 1450 5200 1450
-Wire Wire Line
-	5200 1450 5200 1200
-Wire Wire Line
-	5200 1200 5450 1200
-Connection ~ 5450 1200
 $Comp
 L power:GND #PWR0110
 U 1 1 5A07A1D3
@@ -843,8 +836,6 @@ Wire Wire Line
 Wire Wire Line
 	6450 3700 6550 3700
 Wire Wire Line
-	5450 1200 5450 1250
-Wire Wire Line
 	2550 4850 2750 4850
 Wire Wire Line
 	2550 5450 2750 5450
@@ -935,4 +926,10 @@ Text Notes 7550 2500 0    60   ~ 0
 WIFI_TXD2
 Text Notes 7550 2600 0    60   ~ 0
 WIFI_RXD2
+Wire Wire Line
+	5450 1150 5450 1250
+Text GLabel 5200 1450 0    60   Input ~ 0
+CLK_OE
+Text GLabel 10150 2050 2    60   Input ~ 0
+CLK_OE
 $EndSCHEMATC
