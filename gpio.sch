@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ulx3s-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 2 11
 Title "ULX3S"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
 Comment2 ""
@@ -535,7 +534,7 @@ AUDIO_V1
 Text GLabel 4150 5250 0    60   Input ~ 0
 AUDIO_V0
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 6 1 5A0783C9
 P 4900 4750
 AR Path="/5A0783C9" Ref="U1"  Part="6" 
@@ -545,12 +544,11 @@ F 1 "LFE5U-85F-6BG381C" H 4900 5600 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3850 5700 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 3850 5700 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 4900 4750 60  0001 C CNN "MPN"
-F 5 "842-LFE5U85F6BG381C" H 4900 4750 60  0001 C CNN "Mouser"
 	6    4900 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L lfe5bg381:LFE5U-85F-6BG381C U1
+L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 1 1 5A0737C6
 P 4950 2500
 AR Path="/5A0737C6" Ref="U1"  Part="1" 
@@ -560,7 +558,6 @@ F 1 "LFE5U-85F-6BG381C" H 4950 3350 60  0000 C CNN
 F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 3900 3450 60  0001 C CNN
 F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 3900 3450 60  0001 C CNN
 F 4 "LFE5U-85F-6BG381C" H 4950 2500 60  0001 C CNN "MPN"
-F 5 "842-LFE5U85F6BG381C" H 4950 2500 60  0001 C CNN "Mouser"
 	1    4950 2500
 	1    0    0    -1  
 $EndComp
@@ -649,7 +646,7 @@ Wire Notes Line
 Wire Notes Line
 	7450 3500 7350 3500
 Text Notes 7250 3400 0    60   ~ 0
-STPS2L30AF
+STPS2L40AF
 Wire Notes Line
 	9550 3500 9450 3500
 Wire Notes Line
@@ -663,7 +660,7 @@ Wire Notes Line
 Wire Notes Line
 	9400 3500 9300 3500
 Text Notes 9150 3400 0    60   ~ 0
-STPS2L30AF
+STPS2L40AF
 NoConn ~ 4200 3000
 NoConn ~ 4200 3100
 NoConn ~ 5700 3000
@@ -697,4 +694,10 @@ Text Notes 650  3450 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 Text Notes 7050 3250 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
+Text GLabel 5700 2200 2    60   Input ~ 0
+WIFI_GPIO25
+Text GLabel 4200 2800 0    60   Input ~ 0
+WIFI_GPIO35
+Text Notes 2800 2850 0    60   ~ 0
+NC <v3.1.2
 $EndSCHEMATC

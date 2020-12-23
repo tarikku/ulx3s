@@ -1,4 +1,4 @@
-update=petak, 27. rujna 2019. 22:39:57 CEST
+update=subota, 31. listopada 2020. 18:25:21 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=ulx3s.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
